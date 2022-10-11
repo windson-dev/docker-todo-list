@@ -1,1 +1,1 @@
-docker container create -i --name some-nginx -v /some/content:/usr/share/nginx/html:ro nginx:1.21.3-alpine
+docker image pull nginx:1.21.3-alpine
